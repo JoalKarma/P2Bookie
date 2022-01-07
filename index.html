@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <title>Booki 4</title>
+    <title>Booki</title>
 </head>
 <body>
     
@@ -27,39 +27,52 @@
         </header>
 
         <!--SLOGAN DE LA PAGE-->
-
-        <h2>Trouver votre hébergement pour des vacances de rêve</h2>
-        <p>En plein centre ville ou en pleine nature</p>
+        <div class="entête">
+            <h2>Trouver votre hébergement pour des vacances de rêve</h2>
+            <p>En plein centre ville ou en pleine nature</p>
+        
 
 
         <!-- SEARCH BAR-->
+        <div class="form_center">
+            <form action="#" method="get" class="flex">
+                <i class="fas fa-map-marker-alt search_icon"></i>
+                <div class="search_bar_icon">
+                    <input type="search" placeholder="Marseille, France" class="search_bar">
+                    <button class="button_mobile">
+                        <span><i class="fas fa-search"></i></span>
+                    </button>
+                </div>
+                <input type="button" value="Recherche" class="button">
+            </form>
+        </div>
 
-        <form action="" method="get" class="flex">
-            <i class="fas fa-map-marker-alt search_icon"></i>
-            <input type="search" placeholder="Marseille, France" class="search_bar">
-            <input type="button" value="Recherche" class="button">
-        </form>
+        <!-- <i class="fas fa-search"></i> recherche image -->
 
 
         <!-- FILTRES-->
 
         <div class="filter flex">
-            <span class="heading_filter"> Filtre</span>
-
-            <div class="filter_link flex">
-                <a href="#"><i class="fas fa-money-bill-wave filter_icon"></i><span>Economique</span></a>
+            <div>
+                <span class="heading_filter"> Filtre</span>
             </div>
 
-            <div class="filter_link flex">
-                <a href="#"><i class="fas fa-child filter_icon"></i><span>Familial</span></a>
-            </div>
+            <div class="flex filter_icon2">
+                <div class="filter_link flex">
+                    <a href="#"><i class="fas fa-money-bill-wave filter_icon"></i><span>Economique</span></a>
+                </div>
 
-            <div class="filter_link flex">
-                <a href="#"><i class="fas fa-heart filter_icon"></i><span>Romantique</span></a>  
-            </div>            
+                <div class="filter_link flex">
+                    <a href="#"><i class="fas fa-child filter_icon"></i><span>Familial</span></a>
+                </div>
+
+                <div class="filter_link flex">
+                    <a href="#"><i class="fas fa-heart filter_icon"></i><span>Romantique</span></a>  
+                </div>            
             
-            <div class="filter_link flex">
-                <a href="#"><i class="fas fa-dog filter_icon"></i><span>Animaux autorisés</span></a>
+                <div class="filter_link flex">
+                    <a href="#"><i class="fas fa-dog filter_icon"></i><span>Animaux autorisés</span></a>
+                </div>
             </div>
 
         </div>
@@ -67,10 +80,15 @@
 
         <!--INFO-->
 
-        <div class="info">
-            <i class="fas fa-info info_icon"></i><span>Plus de 500 logements sont disponible dans cette ville</span>
+        <div class="info flex">
+            <div>
+                <i class="fas fa-info info_icon"></i>
+            </div>
+            <div>
+            <span class="in">Plus de 500 logements sont disponible dans cette ville</span>
+            </div>
         </div>
-
+        </div>
 
         <!--BLOC HOTEL IN MARSEILLE-->
         <!-- etoile a utiliser color1= pleine, color2= griser
