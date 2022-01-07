@@ -38,6 +38,9 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+header img{
+    width: 15%;
+}
 header nav ul li{
     padding-right: 20px;
 }
@@ -350,6 +353,46 @@ min -width = mobile first*/
         box-sizing: border-box;
         margin-top: 5px;
         padding-right: 10px;        
+    }
+    /* ACTIVITIES */
+    #activities_bloc{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0Px;
+    }
+    .activities_heading{
+        padding-bottom: 20px;
+
+    }
+    .activities_bloc_container{
+        display: flex;
+        flex-direction: column; 
+        width: 100%;
+    }
+    .activities_container{
+        width: 100%;
+    }
+    .activities_card1, .activities_card2, .activities_card3{  
+        width: 100%;
+        height: 220px;            
+    }
+    .activities_image1, .activities_image2, .activities_image3{
+        height: 160px;
+        width: 100%;
+    }
+    .activities_heading_card{
+        
+        box-sizing: border-box;
+        margin-top: 15px;
+        padding-right: 10px;
+        
+    }
+    /* FOOTER */
+    footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
 }
