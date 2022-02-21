@@ -7,14 +7,19 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;       
-}
-.bannieretop > a{
+  }
+  .bannieretop > a{
     color: white;
     text-decoration: none;
-}
-.joaport{
+  }
+  .joaport{
     height: 90px;
-}
+  }
+  @media (max-width:768px){
+    .bannieretop > p{
+      display: none;
+    }
+  }
 
 /* Général */
 body
